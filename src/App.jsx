@@ -1,10 +1,18 @@
+import Header from './componenti/Header'
+import Main from './componenti/Main'
+import Footer from './componenti/Footer'
+
 
 function App() {
-  // const [count, setCount] = useState(0)
+  
 
   return (
     <>
-      <h1>Hello world</h1>
+      <Header />
+      <Main /> 
+      <Footer />
+
+      
     </>
   )
 }
