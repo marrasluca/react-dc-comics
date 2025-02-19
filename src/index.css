@@ -49,3 +49,37 @@ figure img {
   width: 60px;
   margin-top: 5px;
 }
+
+/* main */
+#content {
+  background-color: black;
+}
+
+#content h2 {
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#information {
+  background-color: blue;
+  color: white;
+  padding: 20px 0;
+}
+
+#information ul li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+ 
+}
+
+#information figure{
+  display: flex;
+}
+
+#information ul li figure img{
+  aspect-ratio: 1;
+  width: 35px;
+}
