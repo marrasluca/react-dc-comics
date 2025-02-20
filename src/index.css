@@ -21,13 +21,12 @@ header{
   align-items: center;
 }
 
-ul {
-  list-style: none;
+header ul {
   display: flex;
   gap: 20px;
 }
 
-ul li {
+ header ul li {
   
   line-height: 50px;
 }
@@ -55,6 +54,15 @@ figure img {
   background-color: black;
 }
 
+main ul{
+  display: flex;
+}
+
+div .container{
+  display: flex;
+  justify-content: space-between;
+}
+
 #content h2 {
   color: white;
   text-align: center;
@@ -71,15 +79,70 @@ figure img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
  
 }
 
 #information figure{
   display: flex;
+  margin-left: 20px;
 }
 
 #information ul li figure img{
   aspect-ratio: 1;
   width: 35px;
+
+}
+
+/* footer */
+footer{
+  background-color: black;
+  color: white;
+  
+}
+
+footer .container{
+  display: flex;
+  align-items: flex-start;
+  padding: 20px 0;
+  
+ 
+}
+
+#topFooter{
+  background: url('./src/assets/footer-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+#topFooter .bg-logo{
+  background: url(./assets/dc-logo-bg.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 25px;
+ 
+}
+
+footer a{
+  color: lightgray;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer ul li{
+  line-height: 160%;
+  font-size: 0.8;
+  
+}
+
+footer .title {
+  font-size: 1.5rem;
+  color: white;
 }
