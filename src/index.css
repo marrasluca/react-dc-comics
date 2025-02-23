@@ -146,3 +146,17 @@ footer .title {
   font-size: 1.5rem;
   color: white;
 }
+
+
+#bottomFooter{
+  background-color: black;
+}
+
+#bottomFooter button{
+  border: 2px solid blue;
+  color: white;
+  padding: 10px;
+  background-color: transparent;
+  text-transform: uppercase;
+
+}

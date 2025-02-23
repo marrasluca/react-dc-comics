@@ -48,9 +48,11 @@ function Footer() {
                 </section>
                 
                 <section id="bottomFooter">
-                <div className="container">
-                bottom footer
-                </div>
+                    <div className="container">
+                        <button>
+                            sign-up now
+                        </button>
+                    </div>
                 </section>
             
         </footer>
